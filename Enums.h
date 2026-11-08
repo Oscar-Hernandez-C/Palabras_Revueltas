@@ -1,9 +1,8 @@
 #ifndef ENUMS_H
 #define ENUMS_H
 
-enum class EstadoJuego { EN_MENU, EN_CURSO, FINALIZADA };
-enum class TipoEjercicio { INCOMPLETA, SIN_ACENTOS, DESORDENADA };
-enum class EstadoPalabra { PENDIENTE, ACERTADA, FALLADA };
-enum class Categoria { ACADEMICO, COTIDIANO, TEMATICO, LITERARIO };
+enum class EstadoJuego { ACTIVO, PAUSADO, FINALIZADO };
+enum class TipoPalabra { INCOMPLETA, SIN_ACENTO, DESORDENADA };
+enum class EstadoPalabra { ACERTADA, FALLADA, PENDIENTE };
 
 #endif // ENUMS_H
